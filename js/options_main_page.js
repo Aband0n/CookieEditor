@@ -3,13 +3,13 @@ var arguments = getUrlVars();
 var element;
 
 if (panel === "null" || panel === null || panel === undefined) {
-    element = "support";
+  element = "support";
 } else {
-    element = panel;
+  element = panel;
 }
 
 if (arguments.page !== undefined) {
-    element = arguments.page;
+  element = arguments.page;
 }
 
 location.href = "/options_pages/" + element + ".html";

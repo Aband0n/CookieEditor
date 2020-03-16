@@ -17,11 +17,10 @@ Inspired by the lack of good cookie managers in Google Chrome, I developed this 
 * Import cookies in JSON
 * Limit the maximum expiration date of any cookie
 
-
 Contributing
 --------------
-- Improve the translations or add new languages [here](http://www.getlocalization.com/editthiscookie/)
 
+* Improve the translations or add new languages [here](http://www.getlocalization.com/editthiscookie/)
 
 How to Install
 --------------

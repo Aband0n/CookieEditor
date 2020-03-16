@@ -34,13 +34,13 @@
     "options_page": "options_main_page.html",
     "permissions": [
         "tabs",
-        "\u003Call_urls\u003E",
         "cookies",
         "contextMenus",
         "unlimitedStorage",
         "notifications",
         "storage",
-        "clipboardWrite"
+        "clipboardWrite",
+        "<all_urls>"
     ],
     "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
     "minimum_chrome_version": "41",
