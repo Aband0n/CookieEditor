@@ -200,7 +200,7 @@ function createList(filters, isSeparateWindow) {
                     if (compDomain)
                         return compDomain;
                 }
-                return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+                return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
             });
 
             createAccordionList(cookieList, function () {
@@ -218,9 +218,12 @@ function createAccordionList(cks, callback, callbackArguments) {
     let createAccordionCallbackArguments = callbackArguments;
 
     try {
-        $("#cookiesList").accordion("destroy");
+        if ($("#cookiesList").is(':ui-accordion'))
+        {
+            $("#cookiesList").accordion("destroy");
+        }
     } catch (e) {
-        console.warn(e.message)
+        console.warn(e.message);
     }
 
     if (cks === null)
@@ -393,7 +396,7 @@ function setEvents() {
             deleteAll(cookieList, getUrlOfCookies());
             data.nCookiesDeleted += nCookiesDeletedThisTime;
             doSearch();
-        }
+        };
         startAlertDialog(_getMessage("Alert_deleteAll"), okFunction);
     });
 
@@ -422,7 +425,7 @@ function setEvents() {
                 data.nCookiesFlagged += nCookiesFlaggedThisTime;
                 doSearch();
                 return;
-            }
+            };
             startAlertDialog(_getMessage("flagAll"), okFunction);
         });
     } else {
@@ -551,7 +554,7 @@ function setCookieEvents() {
             });
             ++data.nCookiesDeleted;
         };
-        startAlertDialog(_getMessage("Alert_deleteCookie") + ": \"" + name + "\"?", okFunction)
+        startAlertDialog(_getMessage("Alert_deleteCookie") + ": \"" + name + "\"?", okFunction);
     });
     $(".flagOne").click(function () {
         var cookie = $(this).closest(".cookie");
@@ -589,7 +592,7 @@ function setCookieEvents() {
 
 function startAlertDialog(title, ok_callback, cancel_callback) {
     if (ok_callback == undefined) {
-        return
+        return;
     }
     if (!preferences.showAlerts) {
         ok_callback();
