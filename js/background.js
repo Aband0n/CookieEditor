@@ -26,13 +26,13 @@ if (oldVersion !== currentVersion) {
   } else {
     chrome.notifications.onClicked.addListener(function(notificationId) {
       chrome.tabs.create({
-        url: "http://www.editthiscookie.com/changelog/"
+        url: "https://github.com/Aband0n/CookieEditor/"
       });
       chrome.notifications.clear(notificationId, function(wasCleared) {});
     });
     var opt = {
       type: "basic",
-      title: "EditThisCookie",
+      title: "CookieEditor",
       message: _getMessage("updated"),
       iconUrl: "/img/icon_128x128.png",
       isClickable: true
@@ -133,7 +133,7 @@ function setContextMenu(show) {
   chrome.contextMenus.removeAll();
   if (show) {
     chrome.contextMenus.create({
-      title: "EditThisCookie",
+      title: "CookieEditor",
       contexts: ["page"],
       onclick: function(info, tab) {
         showPopup(info, tab);

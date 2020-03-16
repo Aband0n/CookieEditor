@@ -1,11 +1,11 @@
-EditThisCookie
+CookieEditor
 ========================
 
 Description
 --------------
 
-EditThisCookie is a cookie manager. You can add, delete, edit, search, protect, and block cookies!
-Inspired by the lack of good cookie managers in Google Chrome, I developed this small, simple, and extremely useful extension that allows you to do anything you'll ever need to do to cookies!
+CookieEditor is a cookie manager. You can add, delete, edit, search, protect, and block cookies!
+This CookieEditor is a fork of EditThisCookie and with Bug Fixed.
 
 * Delete any cookie
 * Edit any cookie
@@ -20,7 +20,7 @@ Inspired by the lack of good cookie managers in Google Chrome, I developed this 
 Contributing
 --------------
 
-* Improve the translations or add new languages [here](http://www.getlocalization.com/editthiscookie/)
+* Pull Request at https://github.com/Aband0n/CookieEditor
 
 How to Install
 --------------
