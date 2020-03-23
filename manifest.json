@@ -1,15 +1,14 @@
 {
-    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
     "name": "CookieEditor",
     "version": "1.0.0",
-    "description": "__MSG_editThis_description__",
+    "description": "A cookie editor",
     "icons": {
         "16": "img/icon_16x16.png",
         "48": "img/icon_48x48.png",
         "128": "img/icon_128x128.png"
     },
     "default_locale": "en",
-    "homepage_url": "https://github.com/Aband0n/CookieEditor/",
+    "homepage_url": "https://chrome.google.com/webstore/detail/elicliojdabgmfhchmkpmoooonlafied/",
     "browser_action": {
         "default_icon": {
             "19": "img/icon_19x19.png",
