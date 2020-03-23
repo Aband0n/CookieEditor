@@ -30,7 +30,7 @@
             "/js/ga.js"
         ]
     },
-    "options_page": "options_main_page.html",
+    "options_page": "options_pages/index.html",
     "permissions": [
         "tabs",
         "cookies",

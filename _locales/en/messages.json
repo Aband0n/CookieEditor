@@ -161,9 +161,6 @@
     "editThis_help": {
         "message": "Help"
     },
-    "editThis_getting_started": {
-        "message": "Getting started"
-    },
     "editThis_ReadOnly_Def": {
         "message": "A protected cookie is a cookie which can't be modified by any website or extension"
     },
