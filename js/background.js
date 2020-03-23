@@ -133,7 +133,7 @@ function setContextMenu(show) {
   chrome.contextMenus.removeAll();
   if (show) {
     chrome.contextMenus.create({
-      title: "CookieEditor",
+      title: "Edit Cookie...",
       contexts: ["page"],
       onclick: function(info, tab) {
         showPopup(info, tab);

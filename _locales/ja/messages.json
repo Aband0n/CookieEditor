@@ -206,7 +206,7 @@
         "message": "セッション"
     },
     "editThis_Show_ContextMenu": {
-        "message": "コンテキストメニューに \"Edit Cookies\" を表示"
+        "message": "コンテキストメニューに \"Edit Cookie...\" を表示"
     },
     "editThis_Show_Alerts": {
         "message": "常に確認する"

@@ -123,10 +123,10 @@
         "message": "Add this rule"
     },
     "editThis_ContextMenu": {
-        "message": "Edit Cookies"
+        "message": "Edit Cookie..."
     },
     "editThis_Show_ContextMenu": {
-        "message": "Show \"Edit Cookies\" in contextual menu"
+        "message": "Show \"Edit Cookie...\" in contextual menu"
     },
     "editThis_Show_ContextMenu_helper": {
         "message": "If enabled you will be able to hide the icon on the toolbar by right-clicking on it!"

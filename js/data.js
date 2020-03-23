@@ -24,7 +24,7 @@ var preferences_template = {
   },
   // Show an option to open CookieEditor as a separate tab in the context menu
   showContextMenu: {
-    default_value: true
+    default_value: false
   },
   // If enabled, after submitting cookie changes, the active tab will be refreshed
   refreshAfterSubmit: {
