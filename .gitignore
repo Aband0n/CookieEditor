@@ -1,0 +1,24 @@
+# Ignore tags
+tags
+
+# Hugo default output directory
+/public
+/resources
+
+# NodeJs and yarn
+/node_modules/
+/yarn-error.log
+/.yarnrc
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# Docker
+/.cache/
