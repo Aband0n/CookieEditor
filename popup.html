@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.12.1.custom.min.css" />
     <link rel="stylesheet" type="text/css" href="/lib/uniform/uniform.default.css" />
     <link rel="stylesheet" type="text/css" href="/css/opensans/opensans.css">
-    <link rel="stylesheet" type="text/css" href="/css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/css/popup.css">
     <link rel="stylesheet" type="text/css" href="/css/popup-accordion.css">
 
@@ -26,7 +26,7 @@
     <div id="loader-container1"></div>
 
     <div id="loader-container">
-        <i class="fa fa-cog fa-spin fa-3x"></i>
+        <i class="fas fa-cog fa-spin fa-3x"></i>
     </div>
 
     <div id="alert_wrapper">
@@ -52,39 +52,39 @@
         <div class="commands-table" style="opacity: 0;">
             <div class="commands-row">
                 <a id="backToList" i18n_title="backToList" style="display: none;">
-                    <i class="fa fa-arrow-left"></i>
+                    <i class="fas fa-arrow-left"></i>
                     <span i18n="backToList"></span>
                 </a>
                 <a id="deleteAllButton" class="notOnEmpty" i18n_title="deleteAll">
-                    <i class="fa fa-trash-o"></i>
+                    <i class="fas fa-trash-alt"></i>
                     <span i18n="deleteAll"></span>
                 </a>
                 <a id="flagAllButton" class="notOnEmpty" i18n_title="flagAll" style="display: none;">
-                    <i class="fa fa-ban" style="color: red;"></i>
+                    <i class="fas fa-ban" style="color: red;"></i>
                     <span i18n="flagAll"></span>
                 </a>
                 <a id="refreshButton" i18n_title="reset">
-                    <i class="fa fa-undo"></i>
+                    <i class="fas fa-undo"></i>
                     <span i18n="reset"></span>
                 </a>
                 <a id="addCookieButton" i18n_title="addNew">
-                    <i class="fa fa-plus"></i>
+                    <i class="fas fa-plus"></i>
                     <span i18n="addNew"></span>
                 </a>
                 <a id="pasteButton" i18n_title="Paste_Cookies">
-                    <i class="fa fa-sign-in"></i>
+                    <i class="fas fa-sign-in-alt"></i>
                     <span i18n="Paste_Cookies"></span>
                 </a>
                 <a id="copyButton" class="notOnEmpty" i18n_title="Copy_Cookies">
-                    <i class="fa fa-sign-out"></i>
+                    <i class="fas fa-sign-out-alt"></i>
                     <span i18n="Copy_Cookies"></span>
                 </a>
                 <a id="searchButton" class="notOnEmpty" i18n_title="search">
-                    <i class="fa fa-search"></i>
+                    <i class="fas fa-search"></i>
                     <span i18n="search"></span>
                 </a>
                 <a id="optionsButton" i18n_title="Options">
-                    <i class="fa fa-wrench"></i>
+                    <i class="fas fa-wrench"></i>
                     <span i18n="Options"></span>
                 </a>
             </div>
@@ -145,16 +145,16 @@
         <div class="cookie cookie_details_template">
             <div class="vertical-commands-row">
                 <a class="deleteOne" i18n_title="Alert_deleteCookie">
-                    <i class="fa fa-trash-o" style="color:#363636;"></i>
+                    <i class="fas fa-trash-alt" style="color:#363636;"></i>
                 </a>
                 <a class="protectOne unprotected" i18n_title="Set_ReadOnly">
-                    <i class="fa fa-unlock" style="color:#363636;"></i>
+                    <i class="fas fa-unlock" style="color:#363636;"></i>
                 </a>
                 <a class="protectOne protected" i18n_title="Is_ReadOnly">
-                    <i class="fa fa-lock" style="color:green;"></i>
+                    <i class="fas fa-lock" style="color:green;"></i>
                 </a>
                 <a class="flagOne" i18n_title="Flag_Cookie">
-                    <i class="fa fa-ban" style="color:#E60000; padding-top: 25px !important;"></i>
+                    <i class="fas fa-ban" style="color:#E60000; padding-top: 25px !important;"></i>
                 </a>
             </div>
             <input type="hidden" class="index" value="" disabled="disabled">
@@ -208,7 +208,7 @@
             <div class="cookie ui-widget-content ui-corner-bottom" style="padding-bottom: 5px">
                 <div class="vertical-commands-row" style="margin: 0 0 -25px 0 !important; display: none;">
                     <a class="" i18n_title="reset">
-                        <i class="fa fa-undo" style="color:#363636;"></i>
+                        <i class="fas fa-undo" style="color:#363636;"></i>
                     </a>
                 </div>
                 <div class="cookie-table" style="margin-left: 10px; width: 97%;">
@@ -269,7 +269,7 @@
         <div id="copiedToast" class="toast" i18n="Copied_clipboard"></div>
 
         <div id="submitDiv">
-            <i id="submitButton" class="fa fa-check" i18n_title="Alert_submitAll"></i>
+            <i id="submitButton" class="fas fa-check" i18n_title="Alert_submitAll"></i>
             <a id="helpButton" i18n="help" href="http://www.editthiscookie.com/start/" target="_blank">
             </a>
         </div>

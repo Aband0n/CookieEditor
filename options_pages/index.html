@@ -4,9 +4,9 @@
     <link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.12.1.custom.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="/lib/uniform/uniform.default.css" />
     <link rel="stylesheet" type="text/css" href="/css/opensans/opensans.css">
-    <link rel="stylesheet" type="text/css" href="/css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/css/options_main_page.css" />
-    <link rel="stylesheet" type="text/css" href="support.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
 
     <script src="/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="/lib/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
@@ -18,7 +18,7 @@
     <script src="/js/data.js" type="text/javascript"></script>
 
     <script src="options_page_chooser.js" type="text/javascript"></script>
-    <script src="support.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
 
     <title i18n="support_etc"></title>
 </head>
@@ -34,21 +34,27 @@
     </div>
 
     <div id="support-box" class="box">
+        <div class="linkify" lnk="https://github.com/Aband0n/CookieEditor/wiki">
+            <div class="section-title">Wiki</div>
+            <i style="color: #000000; font-size: 4em; margin-top:5px; margin-right:5px;" class="fab fa-wikipedia-w"></i>
+            <span>Getting Start</span>
+        </div>
+        <hr>
         <div class="linkify" lnk="https://chrome.google.com/webstore/detail/elicliojdabgmfhchmkpmoooonlafied/reviews">
             <div class="section-title" i18n="Rate_ETC"></div>
-            <i style="color: #FF9D00; font-size: 4em; margin-top:5px; margin-right:5px;" class="fa fa-star fa-fw"></i>
+            <i style="color: #FF9D00; font-size: 4em; margin-top:5px; margin-right:5px;" class="fas fa-star fa-fw"></i>
             <span i18n="Rate_Us_Intro"></span>
         </div>
         <hr>
         <div class="linkify" lnk="https://github.com/Aband0n/CookieEditor/issues">
             <div class="section-title" i18n="bugsFeatureRequest"></div>
-            <i style="color: #00D6C1; font-size: 4em; margin-top:5px; margin-right:5px;" class="fa fa-bug fa-fw"></i>
+            <i style="color: #00D6C1; font-size: 4em; margin-top:5px; margin-right:5px;" class="fas fa-bug fa-fw"></i>
             <span i18n="bugsFeatureRequestIntro"></span>
         </div>
         <hr>
         <div class="linkify" lnk="https://github.com/Aband0n/CookieEditor/">
             <div class="section-title" i18n="Source_Code"></div>
-            <i style="color: #25BD20; font-size: 4em; margin-top:5px; margin-right:5px;" class="fa fa-code fa-fw"></i>
+            <i style="color: #25BD20; font-size: 4em; margin-top:5px; margin-right:5px;" class="fas fa-code fa-fw"></i>
             <span i18n="Source_Code_Intro" i18n_argument="GitHub"></span>
         </div>
         <hr>
